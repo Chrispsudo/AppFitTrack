@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="FitTrack" FontSize="36" FontFamily="Arial" Foreground="Crimson" HorizontalAlignment="Center" Margin="0,30,0,0"/>
+        <TextBox Name="UsernameBox" Margin="200,100,200,0" Height="30"/>
+        <PasswordBox Name="PasswordBox" Margin="200,150,200,0" Height="30"/>
+        <Button Content="Sign In" Margin="200,200,200,0" Height="30" Click="SignIn_Click"/>
+        <Button Content="Register" Margin="200,250,200,0" Height="30" Click="Register_Click"/>
+
     </Grid>
 </Window>
